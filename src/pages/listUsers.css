@@ -1,0 +1,49 @@
+.container-listuser {
+  width: 100%;
+  min-height: 90vh;
+  background-color: rgb(236, 236, 236);
+}
+
+.container-listuser .container-cards {
+  width: 70%;
+  /* min-height: 100vh; */
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  background-color: rgb(236, 236, 236);
+}
+
+.container-listuser h1 {
+  margin: 0;
+}
+
+
+.container-listuser .header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  font-family: 'ubuntu';
+  color: rgb(139, 139, 139);
+}
+
+.container-listuser .header .title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-listuser .header a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
+  height: 100%;
+  text-decoration: none;
+  font-size: medium;
+  font-weight: 700;
+  background-color: cadetblue;;
+  border-radius: 0 0 25px 0;
+  color:antiquewhite
+}
